@@ -18,11 +18,11 @@ def create_teams():
   team3 = Team('Averages', 50, 50)
   teams = [team1, team2, team3]
 
-# def play():
-#   print('Debug: play()')
-#   create_teams()
-#   for team in teams:
-#     if team.name == 'Attackers':
-#       team.display_info()
+def play():
+  print('Debug: play()')
+  create_teams()
+  for team in teams:
+    if team.name == 'Attackers':
+      team.display_info()
 
 play()
